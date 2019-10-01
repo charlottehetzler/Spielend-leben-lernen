@@ -1,1 +1,21 @@
-// Specific CSS for your home-page
+// Specific CSS for your home
+h2 {
+  font-size: 28px;
+  font-weight: lighter;
+  color: $sun-set;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: lighter;
+  color: $sun;
+}
+
+p {
+  font-size: 20px;
+  color: $dark-green;
+}
+
+.section {
+  margin-bottom: 30px;
+}
