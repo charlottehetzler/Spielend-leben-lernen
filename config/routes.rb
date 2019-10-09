@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'philosophy/index', as: 'philosophy'
   get 'legal/index', as: 'legal'
   get 'contact/index', as: 'contact'
   get 'about/index', as: 'about'

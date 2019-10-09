@@ -1,9 +1,12 @@
 <div class="navbar sticky">
   <div class="navbar-brand">
-    <h1 class="logo">Spielend Leben Lernen</h1>
+    <%= link_to root_path do %>
+      <%= image_tag 'clown.png', class:"navbar-img" %>
+    <% end %>
   </div>
   <div class="navbar-items">
-    <%= link_to "Philosophie", root_path, class:"navbar-item" %>
+    <%= link_to "Home", root_path, class:"navbar-item" %>
+    <%= link_to "Philosophie", philosophy_path, class:"navbar-item" %>
     <%= link_to "Angebot", offer_path, class:"navbar-item" %>
     <%= link_to "Über mich", about_path, class:"navbar-item" %>
     <%= link_to "Kontakt", contact_path, class:"navbar-item" %>

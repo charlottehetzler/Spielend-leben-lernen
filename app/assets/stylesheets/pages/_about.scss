@@ -1,0 +1,31 @@
+li {
+  font-size: 20px;
+  color: $dark-green;
+  margin-bottom: 1rem;
+}
+
+.header-andrea {
+  margin-bottom: 25px;
+}
+
+.sub-list {
+  list-style: none;
+}
+ul li::before {
+  content: "\2022";
+  color: $sun-set;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.about-content {
+  display: flex;
+}
+
+.andrea {
+  height: 200px;
+  padding-right: 20px;
+}
+

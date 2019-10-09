@@ -1,14 +1,36 @@
 import "bootstrap";
 
-jQuery(document).ready(function($) {
-  $(window).scroll(function() {
-    var scrollPos = $(window).scrollTop(),
-        navbar = $('.navbar');
+$(document).ready(function(){
+  $("#one-more").hide();
+  $("#one").click(function(){
+    $("#one-more").toggle();
+  });
+});
 
-    if (scrollPos > 500) {
-      navbar.addClass('visible');
-    } else {
-      navbar.removeClass('visible');
-    }
+$(document).ready(function(){
+  $("#two-more").hide();
+  $("#two").click(function(){
+    $("#two-more").toggle();
+  });
+});
+
+$(document).ready(function(){
+  $("#three-more").hide();
+  $("#three").click(function(){
+    $("#three-more").toggle();
+  });
+});
+
+$(document).ready(function(){
+  $("#four-more").hide();
+  $("#four").click(function(){
+    $("#four-more").toggle();
+  });
+});
+
+$(document).ready(function(){
+  $("#five-more").hide();
+  $("#five").click(function(){
+    $("#five-more").toggle();
   });
 });
