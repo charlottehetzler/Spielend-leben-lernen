@@ -1,15 +1,8 @@
 h2 {
   font-size: 28px;
   font-weight: lighter;
-  color: $sun-set;
+  color: $light-green;
 }
-
-h3 {
-  font-size: 26px;
-  font-weight: lighter;
-  color: $sun;
-}
-
 
 .first-section {
   margin-top: 100px;
@@ -21,7 +14,7 @@ h3 {
 }
 
 .sub-header {
-  color: $sun-set;
+  color: $light-green;
   font-family: 'Kalam', cursive;
   font-size: 22px;
 }
@@ -37,4 +30,3 @@ h3 {
   border-radius: 5px;
   padding-right: 0px;
 }
-

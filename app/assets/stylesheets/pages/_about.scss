@@ -13,7 +13,7 @@ li {
 }
 ul li::before {
   content: "\2022";
-  color: $sun-set;
+  color: $light-green;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -28,4 +28,3 @@ ul li::before {
   height: 200px;
   padding-right: 20px;
 }
-
