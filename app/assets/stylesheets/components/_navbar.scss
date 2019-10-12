@@ -1,5 +1,7 @@
 .navbar {
-  background-color: $light-green !important;
+  background-color: $white;
+  opacity: .9;
+  border-bottom: 3px solid $light-green;
   transition: all .3s ease;
   height: 80px;
   padding: 0px 30px;
@@ -23,14 +25,14 @@
     padding-right: 30px;
   }
   a {
-    color: $white;
+    color: $light-green;
     font-family: 'Kalam', cursive;
     font-size: 22px;
     font-weight: lighter;
     letter-spacing: 3px;
     margin-bottom: 0px;
     &:hover {
-      color: $pink;
+      color: $dark-green;
       text-decoration: none;
     }
   }

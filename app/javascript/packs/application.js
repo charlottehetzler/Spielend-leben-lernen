@@ -34,3 +34,14 @@ $(document).ready(function(){
     $("#five-more").toggle();
   });
 });
+
+
+//Mapbox
+
+var mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiY2hldHpsZXIiLCJhIjoiY2sxbmprZzVsMDhnMDNucnljYnZuYjg3MSJ9.bfpBECHO7lItHCBmwTbrIQ';
+var map = new mapboxgl.Map({
+container: 'contact-map',
+style: 'mapbox://styles/mapbox/streets-v11'
+});
