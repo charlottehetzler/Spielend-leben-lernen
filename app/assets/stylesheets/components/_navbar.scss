@@ -1,6 +1,5 @@
 .navbar {
-  background-color: $white;
-  opacity: .9;
+  background-color: $creme;
   border-bottom: 3px solid $light-green;
   transition: all .3s ease;
   height: 80px;
@@ -19,7 +18,7 @@
   height: 75px;
 }
 
-.navbar-items {
+#navbar-items {
   display: flex;
   .navbar-item {
     padding-right: 30px;
@@ -35,5 +34,10 @@
       color: $dark-green;
       text-decoration: none;
     }
+    &:active {
+      border-bottom: 2px solid $light-green;
+      color: $dark-green;
+    }
   }
 }
+

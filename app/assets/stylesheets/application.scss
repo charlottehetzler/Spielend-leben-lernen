@@ -12,3 +12,6 @@
 @import "components/index";
 @import "pages/index";
 
+.fix-content {
+  min-height: calc(100vh - 210px);
+}
