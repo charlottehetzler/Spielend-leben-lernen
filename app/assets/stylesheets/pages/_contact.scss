@@ -1,8 +1,16 @@
 .contacts {
-  // display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.mapboxgl-map {
-  height: 300px;
-  width: 400px;
+p.contact-item {
+  margin-bottom: 0px;
+}
+
+
+#map {
+  position: relative;
+  height: 400px;
+  width: 500px;
 }

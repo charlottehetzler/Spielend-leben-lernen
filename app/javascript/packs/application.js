@@ -36,12 +36,18 @@ $(document).ready(function(){
 });
 
 
-//Mapbox
-
-var mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
+import mapboxgl from 'mapbox-gl';
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiY2hldHpsZXIiLCJhIjoiY2sxbmprZzVsMDhnMDNucnljYnZuYjg3MSJ9.bfpBECHO7lItHCBmwTbrIQ';
-var map = new mapboxgl.Map({
-container: 'contact-map',
-style: 'mapbox://styles/mapbox/streets-v11'
+console.log('hello');
+const map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/streets-v9',
+  // center: [50.11, 8.68],
+  zoom: 5
 });
+    new mapboxgl.Marker()
+    .setLngLat([8.67, 50.13], [8.65,49.76])
+    .addTo(map);
+
+
