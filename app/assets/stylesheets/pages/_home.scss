@@ -1,12 +1,14 @@
 h1 {
   font-size: 50px;
   color: $pink;
+  letter-spacing: 2px;
 }
 
 h4 {
   font-size: 30px;
   font-weight: lighter;
   color: $white;
+  letter-spacing: 2px;
 }
 
 p {
@@ -29,7 +31,7 @@ p {
 
 .welcome-header {
   color: $light-green;
-  font-family: 'Kalam', cursive;
-    font-size: 22px;
-  letter-spacing: 1px;
+  font-family: 'Happy Kids';
+  font-size: 24px;
+  letter-spacing: 2px;
 }

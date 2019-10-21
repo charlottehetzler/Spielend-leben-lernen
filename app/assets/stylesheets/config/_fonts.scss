@@ -4,7 +4,7 @@
 
 // Define fonts for body and headers
 $body-font: 'Montserrat', sans-serif;
-$headers-font: 'Kalam', cursive;
+$headers-font: 'Happy Kids';
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -15,3 +15,10 @@ $headers-font: 'Kalam', cursive;
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+@font-face {
+   font-family: 'HAPPYK_1';
+   src: url('/assets/HAPPYK_1.otf')
+}
+
+// $my-font: 'Happy Kids';
