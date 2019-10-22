@@ -37,6 +37,18 @@ $(document).ready(function(){
   });
 });
 
+// active Class on Navbar
+
+// const navContainer = document.getElementById("navbar-items");
+// const navs = navContainer.getElementsByClassName("navbar-item");
+// for (var i = 0; i < navs.length; i++) {
+//   navs[i].addEventListener("click", function() {
+//     var current = document.getElementsByClassName("active");
+//     current[0].className = current[0].className.replace(" active", "");
+//     this.className += " active";
+//   });
+// }
+
 // Mapbox
 
 import mapboxgl from 'mapbox-gl';
@@ -56,16 +68,5 @@ const map = new mapboxgl.Map({
     .addTo(map);
 
 
-// active Class on Navbar
 
-function setActive() {
-  console.log("hello");
-  aObj = document.getElementByClassName('navbar-item');
-  for(i=0;i<aObj.length;i++) {
-    if(document.location.href.indexOf(aObj[i].href)>=0) {
-      aObj[i].className='active';
-    }
-  }
-}
 
-window.onload = setActive();
