@@ -6,7 +6,7 @@ a {
   margin-bottom: 0px;
   &:hover {
     text-decoration: none;
-    color: $pink;
+    color: $white;
     }
 }
 
@@ -23,6 +23,10 @@ a {
     font-weight: lighter;
     margin-bottom: 0px;
   }
+}
+
+.footer-legal {
+  display: grid;
 }
 
 .footer-items {

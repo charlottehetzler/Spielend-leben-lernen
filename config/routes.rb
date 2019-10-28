@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'privacy_policy/index', as: 'policy'
   get 'philosophy/index', as: 'philosophy'
   get 'legal/index', as: 'legal'
   get 'contact/index', as: 'contact'
