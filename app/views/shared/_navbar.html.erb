@@ -5,10 +5,10 @@
     <% end %>
   </div>
   <div id="navbar-items">
-    <%= link_to "Home", root_path, class:"navbar-item active"%>
-    <%= link_to "Philosophie", philosophy_path, class:"navbar-item" %>
-    <%= link_to "Angebot", offer_path, class:"navbar-item" %>
-    <%= link_to "Über mich", about_path, class:"navbar-item" %>
-    <%= link_to "Kontakt", contact_path, class:"navbar-item" %>
+    <%= link_to "Home", root_path, class: current_class?(root_path) %>
+    <%= link_to "Philosophie", philosophy_path, class: current_class?(philosophy_path) %>
+    <%= link_to "Angebot", offer_path, class: current_class?(offer_path) %>
+    <%= link_to "Über mich", about_path, class: current_class?(about_path)%>
+    <%= link_to "Kontakt", contact_path, class: current_class?(contact_path)%>
   </div>
 </div>

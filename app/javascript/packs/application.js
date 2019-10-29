@@ -42,31 +42,18 @@ $(document).ready(function(){
 
 import mapboxgl from 'mapbox-gl';
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiY2hldHpsZXIiLCJhIjoiY2sxbmprZzVsMDhnMDNucnljYnZuYjg3MSJ9.bfpBECHO7lItHCBmwTbrIQ';
+const mapElement = document.getElementById('map');
+mapboxgl.accessToken = mapElement.dataset.mapboxApiKey;
+
 const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/light-v10',
   center: [8.6, 50],
   zoom: 8
 });
-    new mapboxgl.Marker()
-      .setLngLat([8.67, 50.13])
-      .addTo(map);
-    new mapboxgl.Marker()
-      .setLngLat([8.65,49.76])
-      .addTo(map);
-
-
-// active Class on Navbar
-
-// const navContainer = document.getElementById("navbar-items");
-// const navs = navContainer.getElementsByClassName("navbar-item");
-// for (var i = 0; i < navs.length; i++) {
-//   navs[i].addEventListener("click", function() {
-//     var current = document.getElementsByClassName("active");
-//     current[0].className = current[0].className.replace(" active", "");
-//     this.className += " active";
-//   });
-// }
-
-
+new mapboxgl.Marker()
+  .setLngLat([8.67, 50.13])
+  .addTo(map);
+new mapboxgl.Marker()
+  .setLngLat([8.65,49.76])
+  .addTo(map);
