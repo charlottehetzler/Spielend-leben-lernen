@@ -1,7 +1,7 @@
 .navbar {
-  background-color: #edf7f5;
+  background-color: $light-green;
   opacity: .9;
-  border-bottom: 8px solid $light-green;
+  // border-bottom: 8px solid $light-green;
   transition: all .3s ease;
   height: 90px;
   padding: 0px 30px;
@@ -22,7 +22,7 @@
 #navbar-items {
   display: flex;
   a {
-    color: $light-green;
+    color: $white;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: lighter;

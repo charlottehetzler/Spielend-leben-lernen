@@ -13,6 +13,7 @@ a {
 .footer {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background-color: $dark-green;
+  opacity: .8;
   transition: all 0.3s ease;
   z-index: 1;
   width: 100%;
