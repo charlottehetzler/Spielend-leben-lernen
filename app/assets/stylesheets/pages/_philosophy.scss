@@ -7,7 +7,7 @@ h2 {
 
 .first-section {
   padding-top: 140px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .section {
@@ -21,15 +21,75 @@ h2 {
   letter-spacing: 0px;
 }
 
-.game-pictures {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 30px 0px;
+.game-content {
+  overflow: auto;
+  margin-top: 18px;
 }
 
-.game-picture {
+
+.game-picture-left {
   border-radius: 5px;
-  padding-right: 0px;
+  float: left;
+  height: 190px;
+  padding-right: 30px;
 }
 
+.img-border {
+  background: transparent;
+  border: 2px solid $light-green;
+  height: 209px;
+  width: 264px;
+  position: absolute;
+  top: 412px;
+  border-radius: 5px;
+  left: 175px;
+}
+
+.kids {
+  border-radius: 5px;
+  float: right;
+  height: 190px;
+  padding-left: 30px;
+}
+
+.kids-border {
+  background: transparent;
+  border: 2px solid $light-green;
+  height: 209px;
+  width: 177px;
+  position: absolute;
+  bottom: -138px;
+  border-radius: 5px;
+  right: 175px;
+}
+
+
+
+
+// .game-picture {
+//   border-radius: 5px;
+//   padding-right: 0px;
+//   float: right;
+//   height: 200px;
+//   padding-left: 20px;
+// }
+
+// .pic-border-right {
+//   background: transparent;
+//   border: 2px solid $light-green;
+//   height: 320px;
+//   width: 390px;
+//   position: absolute;
+//   top: -10px;
+//   border-radius: 5px;
+//   right: 80px;
+// }
+
+
+// .game-pictures {
+//   display: flex;
+//   justify-content: space-around;
+//   align-items: center;
+//   margin: 30px 0px;
+//   position: relative;
+// }
