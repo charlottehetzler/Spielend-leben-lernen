@@ -18,7 +18,9 @@
     <div class="fix-content">
       <%= yield %>
     </div>
-    <%= render 'shared/footer' %>
+    <% unless controller_name == "pages" %>
+      <%= render 'shared/footer' %>
+    <% end %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
   </body>

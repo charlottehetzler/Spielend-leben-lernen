@@ -17,7 +17,7 @@ p {
 }
 
 .banner {
-  height: 600px;
+  height: 580px;
 }
 
 .landing-header {
@@ -26,7 +26,7 @@ p {
 }
 
 .welcome {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .welcome-header {
@@ -34,4 +34,8 @@ p {
   font-family: 'Happy Kids';
   font-size: 24px;
   letter-spacing: 2px;
+}
+
+.welcome-text {
+  margin-bottom: 10px;
 }
