@@ -4,7 +4,7 @@
 
 // Define fonts for body and headers
 $body-font: 'Montserrat', sans-serif;
-$headers-font: 'Happy Kids';
+// $headers-font: 'Happy Kids';
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -20,5 +20,5 @@ $headers-font: 'Happy Kids';
    font-family: 'HAPPYK_1';
    src: url('/assets/HAPPYK_1.otf')
 }
+$headers-font: 'HAPPYK_1'
 
-// $my-font: 'Happy Kids';

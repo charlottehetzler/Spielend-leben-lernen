@@ -25,6 +25,15 @@ p.heart {
   letter-spacing: 0px;
 }
 
+.philo-box {
+  padding-left: 25px;
+}
+
+.content-left {
+  margin-top: 18px;
+  padding-right: 25px;
+}
+
 .content {
   margin-top: 18px;
 }
@@ -32,35 +41,29 @@ p.heart {
 .philo-content {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .game-picture {
   border-radius: 10px;
-  height: 220px;
-  padding-left: 25px;
+  height: 300px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .border-picture {
   border-radius: 5px;
-  height: 250px;
-  padding-right: 30px;
+  height: 340px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .creative-picture {
   border-radius: 5px;
-  height: 200px;
-  padding-left: 30px;
-}
-
-.sand-content {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+  height: 240px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .dragon-picture {
   border-radius: 5px;
-  height: 200px;
-  padding-right: 30px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 60%;
 }
