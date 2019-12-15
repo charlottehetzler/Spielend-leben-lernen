@@ -1,5 +1,14 @@
 import "bootstrap";
 
+// Toggle sand
+
+$(document).ready(function(){
+  $("#more-sand").hide();
+  $("#sand").click(function(){
+    $("#more-sand").toggle();
+  });
+});
+
 // Toggle offer
 
 $(document).ready(function(){
@@ -36,6 +45,7 @@ $(document).ready(function(){
     $("#five-more").toggle();
   });
 });
+
 
 
 // Mapbox
