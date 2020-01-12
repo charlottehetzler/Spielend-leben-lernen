@@ -18,7 +18,7 @@ p {
 }
 
 .banner {
-  height: 580px;
+  height: 550px;
 }
 
 .landing-header {
@@ -39,4 +39,14 @@ p {
 
 .welcome-text {
   margin-bottom: 10px;
+}
+
+.peter-pan {
+  position: absolute;
+  width: 150px;
+  bottom: 0px;
+  right: 120px;
+  opacity: .7;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1)
 }

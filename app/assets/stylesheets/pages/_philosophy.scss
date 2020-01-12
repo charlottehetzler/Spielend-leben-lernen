@@ -16,6 +16,7 @@ p.heart {
 
 .section {
   padding-bottom: 60px;
+  z-index: 2;
 }
 
 .sub-header {
@@ -66,4 +67,13 @@ p.heart {
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   width: 60%;
+}
+
+.fairy-picture {
+  position: absolute;
+  left: 65px;
+  width: 280px;
+  bottom: -960px;
+  opacity: .7;
+  z-index: 1;
 }
