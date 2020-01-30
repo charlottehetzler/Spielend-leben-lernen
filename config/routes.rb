@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root to: 'pages#home'
+
   get 'sand/index', as: 'sand'
   get 'privacy_policy/index', as: 'policy'
   get 'philosophy/index', as: 'philosophy'
@@ -6,6 +8,5 @@ Rails.application.routes.draw do
   get 'contact/index', as: 'contact'
   get 'about/index', as: 'about'
   get 'offer/index', as: 'offer'
-  root to: 'pages/home'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
