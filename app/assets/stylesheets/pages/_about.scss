@@ -2,19 +2,21 @@
   margin-bottom: 25px;
 }
 
-.about-content {
+.about-wrapper {
   display: flex;
-  align-items: center;
   margin-bottom: 20px;
+  align-items: center;
 }
-.about-me {
-  padding-left: 25px;
-}
+
+// .about-me {
+//   padding-left: 25px;
+// }
 
 .andrea {
   height: 300px;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-right: 25px;
 }
 
 .list {

@@ -19,11 +19,20 @@ p {
 
 .banner {
   height: 550px;
+  width: 100%;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 .landing-header {
   padding-top: 425px;
   text-align: center;
+}
+
+.welcome-wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
 }
 
 .welcome {
@@ -42,11 +51,9 @@ p {
 }
 
 .peter-pan {
-  position: absolute;
-  width: 150px;
-  bottom: 0px;
-  right: 120px;
+  height: 200px;
   opacity: .7;
+  margin-top: 25px;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1)
 }

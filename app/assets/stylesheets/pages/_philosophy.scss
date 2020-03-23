@@ -45,6 +45,23 @@ p.heart {
   margin-bottom: 40px;
 }
 
+.sand-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sand-link {
+  font-size: 20px;
+  color: $pink;
+}
+
+.sand-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: $pink;
+  font-weight: 200;
+}
+
 .game-picture {
   border-radius: 10px;
   height: 300px;
@@ -70,10 +87,9 @@ p.heart {
 }
 
 .fairy-picture {
-  position: absolute;
-  left: 65px;
-  width: 280px;
-  bottom: -960px;
+  height: 200px;
+  margin-left: -60px;
+  margin-top: 25px;
   opacity: .7;
   z-index: 1;
 }
