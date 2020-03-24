@@ -1,7 +1,8 @@
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   color: $pink;
   letter-spacing: 2px;
+  font-weight: 700;
 }
 
 h4 {
@@ -31,12 +32,12 @@ p {
 
 .welcome-wrapper {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 50px;
 }
 
 .welcome {
-  margin-top: 25px;
+  margin-top: 60px;
 }
 
 .welcome-header {
@@ -51,9 +52,10 @@ p {
 }
 
 .peter-pan {
-  height: 200px;
+  height: 250px;
   opacity: .7;
   margin-top: 25px;
+  margin-left: 30px;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1)
 }

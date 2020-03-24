@@ -1,6 +1,6 @@
 // Import Google fonts
 // @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
-@import url('https://fonts.googleapis.com/css?family=Kalam:300,400,700|Montserrat:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Delius:300,400,700|Montserrat:300,400,500,600,700&display=swap');
 
 // Define fonts for body and headers
 $body-font: 'Montserrat', sans-serif;
@@ -20,5 +20,5 @@ $body-font: 'Montserrat', sans-serif;
   font-family: 'HAPPYK_1';
    src: font-url('HAPPYK_1.otf')
 }
-$headers-font: 'HAPPYK_1'
+$headers-font: 'Delius', cursive;
 
