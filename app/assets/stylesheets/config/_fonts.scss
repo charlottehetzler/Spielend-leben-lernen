@@ -18,8 +18,7 @@ $body-font: 'Montserrat', sans-serif;
 
 @font-face {
   font-family: 'HAPPYK_1';
-   src: font-url('/assets/fonts/HAPPYK_1.otf')
-  // src: url('<%= fonts_path("HAPPYK_1.otf") %>');
+   src: font-url('HAPPYK_1.otf')
 }
 $headers-font: 'HAPPYK_1'
 
