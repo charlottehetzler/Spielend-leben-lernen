@@ -59,3 +59,28 @@ p {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1)
 }
+
+
+// Responsive
+
+@media(max-width: 768px) {
+  .peter-pan {
+    visibility: visible;
+    display: none;
+  }
+}
+
+@media(max-width: 576px) {
+  p, li, a, .sub-header {
+    font-size: 16px !important;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+}

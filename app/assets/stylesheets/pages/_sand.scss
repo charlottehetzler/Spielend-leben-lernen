@@ -2,14 +2,30 @@
   text-align: center;
 }
 
-.sand-content {
-  text-align: left;
-}
-
 p.sand-content {
-  margin-bottom: 0px;
+  margin-bottom: 15px;
+  text-align: left;
 }
 .dragon-picture {
   margin: 50px 0px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 60%;
+}
+
+ //Rsponsive
+
+@media(max-width: 991px) {
+  .dragon-picture {
+    width: 100%;
+    margin: 40px 0px;
+  }
+}
+
+
+ @media(max-width: 768px) {
+  .dragon-picture {
+    margin: 30px 0px;
+  }
 }
 

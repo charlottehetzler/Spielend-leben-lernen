@@ -2,11 +2,6 @@
   margin-bottom: 25px;
 }
 
-.break {
-  margin-bottom: 15px;
-}
-
-
 .andrea {
   height: 340px;
   border-radius: 5px;
@@ -29,4 +24,19 @@
 
 p.about-me {
   margin-bottom: 15px;
+}
+
+//Responsive
+
+@media(max-width: 768px) {
+  .andrea{
+    height: 300px;
+  }
+}
+
+@media(max-width: 576px) {
+  .andrea{
+    height: 250px;
+    margin-bottom: 15px;
+  }
 }
