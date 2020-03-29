@@ -2,40 +2,21 @@
   margin-bottom: 25px;
 }
 
-.about-wrapper {
-  display: flex;
-  margin-bottom: 20px;
-  align-items: center;
+.break {
+  margin-bottom: 15px;
 }
 
-// .about-me {
-//   padding-left: 25px;
-// }
 
 .andrea {
-  height: 300px;
+  height: 340px;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin-right: 25px;
+  float: left;
 }
 
 .list {
   list-style: none;
-}
-
-li {
-  font-size: 20px;
-  color: $dark-green;
-  margin-bottom: 1rem;
-}
-
-ul li::before {
-  content: "\2022";
-  color: $light-green;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
 }
 
 .curriculum {
@@ -44,4 +25,8 @@ ul li::before {
 
 .curriculum-overview {
   padding-top: 15px;
+}
+
+p.about-me {
+  margin-bottom: 15px;
 }

@@ -31,7 +31,6 @@ p.heart {
 }
 
 .content-left {
-  margin-top: 18px;
   padding-right: 25px;
 }
 
@@ -41,8 +40,8 @@ p.heart {
 
 .philo-content {
   display: flex;
-  align-items: center;
-  margin-bottom: 40px;
+  align-items: start;
+  margin-bottom: 50px;
 }
 
 .sand-wrapper {
@@ -92,4 +91,6 @@ p.heart {
   margin-top: 40px;
   opacity: .7;
   z-index: 1;
+    -ms-transform: skewY(10deg); /* IE 9 */
+  transform: skewY(10deg);
 }
