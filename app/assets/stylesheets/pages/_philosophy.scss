@@ -34,6 +34,9 @@ p.philo-content {
   padding-left: 25px;
 }
 
+.philo-bottom {
+  padding-bottom: 75px;
+}
 
 .content {
   margin-top: 18px;
@@ -144,15 +147,24 @@ p.philo-content {
   }
 }
 @media(max-width: 376px) {
-  .game-picture, .border-picture {
-    height: 125px;
-    margin: 0px 0px 20px 50px;
+  .border-picture {
+    height: 90px;
+    margin: 0px 0px 0px 10px;
   }
-  .creative-picture {
+  .game-picture {
+    margin: 0px 10px 1px 0px;
+    height: 95px;
   }
   .fairy-picture {
     margin-left: -60px;
     height: 150px;
     margin-top: 10px;
+  }
+  .creative-picture {
+    height: 110px;
+    margin: 0px 10px 10px 0px;
+  }
+  p.philo-content {
+    margin-bottom: 35px;
   }
 }

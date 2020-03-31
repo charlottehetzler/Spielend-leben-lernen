@@ -53,6 +53,8 @@
 
 #dropdownMenuButton {
   background-color: transparent;
+  border: 1px solid transparent;
+  outline: none;
 }
 
 // Responsive
@@ -116,6 +118,7 @@
 @media(max-width: 476px) {
   .navbar {
     padding: 0px 10px;
+    height: 80px;
   }
 }
 @media(max-width: 389px) {

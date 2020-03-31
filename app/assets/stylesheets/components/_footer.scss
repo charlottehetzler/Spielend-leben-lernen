@@ -37,7 +37,7 @@ a {
   padding: 15px 0px;
 }
 
-.footer-items-medium, .footer-items-small, .footer-items-xs  {
+.footer-items-medium, .footer-legal-medium, .footer-items-small, .footer-items-xs  {
   display: none;
 }
 
@@ -114,5 +114,11 @@ a {
   }
   p#footer-text, a#footer-text, a.footer-item {
     font-size: 12px !important;
+  }
+}
+
+@media(max-width: 376px){
+    p#footer-text, a#footer-text, a.footer-item {
+    font-size: 10px !important;
   }
 }

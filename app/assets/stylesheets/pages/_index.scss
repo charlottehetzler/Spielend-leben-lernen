@@ -12,26 +12,21 @@ body {
   background-color: #edf7f5;
 }
 
-// .container {
-//   width: 65%;
-// }
-
-@media(min-width: 1400px) {
+@media(min-width: 1401px) {
   .container {
     width: 100%;
   }
 }
 
-
-@media(min-width: 1200px) {
+@media(max-width: 1400px) {
   .container {
-    width: 60%;
+    width: 100%;
   }
 }
 
-@media(min-width: 991px) {
+@media(max-width: 1200px) {
   .container {
-    width: 90%;
+    width: 60%;
   }
 }
 
