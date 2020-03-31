@@ -51,6 +51,10 @@
   display: none;
 }
 
+#dropdownMenuButton {
+  background-color: transparent;
+}
+
 // Responsive
 @media(max-width: 1064px) {
   #navbar-items {
