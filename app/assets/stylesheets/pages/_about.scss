@@ -6,7 +6,8 @@
   height: 340px;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  margin-right: 20px;
+  margin-right: 75px;
+  margin-bottom: 40px;
   float: left;
 }
 
@@ -23,7 +24,13 @@
 }
 
 p.about-me {
-  margin-bottom: 15px;
+  margin-bottom: 40px;
+  line-height: 35px;
+}
+
+.mobile {
+  display: none;
+  visibility: hidden;
 }
 
 //Responsive
@@ -38,12 +45,24 @@ p.about-me {
   .andrea{
     height: 250px;
     margin-bottom: 15px;
+    margin-right: 35px;
   }
 }
 
 @media(max-width: 376px) {
   .andrea{
-    height: 200px;
-    margin-bottom: 15px;
+    height: 250px;
+    margin-bottom: 10px;
+    float: none;
+    display: block;
+    margin: 30px auto;
+  }
+  .web {
+    display: none;
+    visibility: hidden;
+  }
+  .mobile {
+    display:block;
+    visibility: visible;
   }
 }

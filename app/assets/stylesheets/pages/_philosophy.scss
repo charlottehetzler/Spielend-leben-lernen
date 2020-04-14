@@ -3,6 +3,7 @@ h2 {
   font-weight: 700;
   color: $pink;
   letter-spacing: 2px;
+  line-height: 35px;
 }
 
 .first-section {
@@ -11,7 +12,8 @@ h2 {
 }
 
 p.heart {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
+  line-height: 35px;
 }
 
 .section {
@@ -27,7 +29,8 @@ p.heart {
 }
 
 p.philo-content {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
+  line-height: 35px;
 }
 
 .philo-box {
@@ -72,7 +75,7 @@ p.philo-content {
   height: 300px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   float: left;
-  margin: 0px 70px 35px 0px;
+  margin: 0px 100px 60px 0px;
 }
 
 .border-picture {
@@ -80,7 +83,7 @@ p.philo-content {
   height: 300px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   float: right;
-  margin: 0px 0px 35px 70px;
+  margin: 0px 0px 60px 100px;
 }
 
 .creative-picture {
@@ -88,7 +91,7 @@ p.philo-content {
   height: 220px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   float: left;
-  margin: 0px 70px 35px 0px;
+  margin: 0px 100px 35px 0px;
 }
 
 .fairy-picture {
@@ -145,26 +148,23 @@ p.philo-content {
   .border-picture {
     margin: 0px 0px 20px 20px;
   }
+  p.heart, p.philo-content {
+    margin-bottom: 45px;
+  }
 }
 @media(max-width: 376px) {
-  .border-picture {
-    height: 90px;
-    margin: 0px 0px 0px 10px;
-  }
-  .game-picture {
-    margin: 0px 10px 1px 0px;
-    height: 95px;
+  .border-picture, .game-picture, .creative-picture {
+    display: block;
+    margin: 0px auto 45px;
+    float: none;
+    height: 200px;
   }
   .fairy-picture {
     margin-left: -60px;
     height: 150px;
     margin-top: 10px;
   }
-  .creative-picture {
-    height: 110px;
-    margin: 0px 10px 10px 0px;
-  }
-  p.philo-content {
-    margin-bottom: 35px;
+  .first-section {
+    padding-top: 110px;
   }
 }
