@@ -88,7 +88,7 @@ a {
   p#footer-text, a#footer-text, a.footer-item {
     font-size: 12px !important;
   }
-  p#footer-text {
+  p#footer-text > a {
     font-size: 12px !important;
   }
 }
