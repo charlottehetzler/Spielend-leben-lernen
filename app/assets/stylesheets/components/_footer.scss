@@ -88,6 +88,9 @@ a {
   p#footer-text, a#footer-text, a.footer-item {
     font-size: 12px !important;
   }
+  p#footer-text {
+    font-size: 12px !important;
+  }
 }
 
 @media(max-width: 486px) {
@@ -118,8 +121,22 @@ a {
   }
 }
 
-@media(max-width: 376px){
-    p#footer-text, a#footer-text, a.footer-item {
+@media(max-width: 319px){
+  .footer-items-xs {
+    display: block;
+    text-align: center;
+    padding: 25px 0px;
+  }
+  .navbar-brand {
+    margin-right: 0px;
+  }
+  .footer-adress {
+    margin-top: 10px;
+  }
+}
+@media(max-width: 289px){
+  p#footer-text, a#footer-text, a.footer-item {
     font-size: 10px !important;
   }
+
 }

@@ -1,6 +1,6 @@
 .navbar {
   background-color: $light-green;
-  opacity: .9;
+  opacity: .95;
   transition: all .3s ease;
   height: 90px;
   padding: 0px 30px;
@@ -84,6 +84,10 @@
     padding-left: 10px;
     top: 160%
   }
+
+  .dropdown-menu-right {
+    right: -30px;
+  }
   a.dropdown-item {
     color: #FCFCFF;
     font-size: 18px;
@@ -120,20 +124,33 @@
     padding: 0px 10px;
     height: 80px;
   }
+    .navbar-img {
+    display: none;
+    visibility: hidden;
+  }
 }
 @media(max-width: 389px) {
   h2.navbar-header {
     margin-bottom: 0px;
   }
-  .navbar-img {
-    display: none;
-    visibility: hidden;
-  }
+
   i#dropdown {
     color: $pink;
     font-size: 20px;
   }
   h2.navbar-header {
     font-size: 18px !important;
+  }
+}
+@media(max-width: 289px) {
+  i#dropdown {
+    color: $pink;
+    font-size: 16px;
+  }
+  h2.navbar-header {
+    font-size: 14px !important;
+  }
+  .dropdown-menu-right {
+    right: -10;
   }
 }
