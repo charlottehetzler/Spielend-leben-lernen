@@ -1,12 +1,11 @@
 Rails.application.routes.draw do
+  get 'philosophie', to: 'categories#philosophy', as: "philosophy"
+  get 'sandspiel', to: 'categories#sand', as: "sand"
+  get 'angebot', to: 'categories#offer', as: "offer"
+  get 'uebermich', to: 'categories#about', as: "about"
+  get 'kontakt', to: 'categories#contact', as: "contact"
+  get 'impressum', to: 'categories#legal', as: "legal"
+  get 'datenschutz', to: 'categories#privacy', as: "privacy"
   root to: 'pages#home'
-
-  get 'sand/index', as: 'sand'
-  get 'privacy_policy/index', as: 'policy'
-  get 'philosophy/index', as: 'philosophy'
-  get 'legal/index', as: 'legal'
-  get 'contact/index', as: 'contact'
-  get 'about/index', as: 'about'
-  get 'offer/index', as: 'offer'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
