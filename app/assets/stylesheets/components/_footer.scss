@@ -59,10 +59,8 @@ a {
     visibility: hidden;
   }
   .footer-legal-medium {
-    text-align: center;
-  }
-  .footer-item {
-    padding: 0px 5px;
+    display: grid;
+    margin-top: 10px;
   }
 }
 @media(max-width: 668px) {
