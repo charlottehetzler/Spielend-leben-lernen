@@ -33,6 +33,7 @@ a {
 
 .footer-items {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: start;
   padding: 15px 0px;
