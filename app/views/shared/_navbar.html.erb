@@ -1,29 +1,29 @@
-<div class="navbar sticky">
-  <div class="navbar-brand">
+<div class="sandspieltheraphie frankfurt andrea_niersbach navbar sticky">
+  <div class="sandspieltheraphie frankfurt andrea_niersbach navbar-brand">
     <%= link_to root_path do %>
-      <%= image_tag asset_path('clown.png'), class:"navbar-img" %>
+      <%= image_tag asset_path('clown.png'), class:"navbar-img", alt:"Sandspieltheraphie_Frankfurt_Andrea_Niersbach" %>
     <% end %>
    <%= link_to root_path do %>
-    <h2 class="navbar-header">Spielend Leben lernen</h2>
+    <h2 class="sandspieltheraphie frankfurt andrea_niersbach navbar-header">Spielend Leben lernen</h2>
     <% end %>
   </div>
-  <div id="navbar-items">
+  <div id="navbar-items" class="sandspieltheraphie frankfurt andrea_niersbach">
     <%= link_to "Home", root_path, class: current_class?(root_path) %>
     <%= link_to "Philosophie", philosophy_path, class: current_class?(philosophy_path) %>
     <%= link_to "Angebot", offer_path, class: current_class?(offer_path) %>
     <%= link_to "Über mich", about_path, class: current_class?(about_path)%>
     <%= link_to "Kontakt", contact_path, class: current_class?(contact_path)%>
   </div>
-  <div class="dropdown">
+  <div class="sandspieltheraphie frankfurt andrea_niersbach dropdown">
     <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <i class="fas fa-bars" id=dropdown></i>
     </button>
     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-      <%= link_to "Home", root_path, class: "dropdwon-item" %> <br>
-      <%= link_to "Philosophie", philosophy_path, class: "dropdwon-item" %> <br>
-      <%= link_to "Angebot", offer_path, class: "dropdwon-item" %> <br>
-      <%= link_to "Über mich", about_path, class: "dropdwon-item"%> <br>
-      <%= link_to "Kontakt", contact_path, class: "dropdwon-item"%>
+      <%= link_to "Home", root_path, class: "sandspieltheraphie frankfurt andrea_niersbach dropdwon-item" %> <br>
+      <%= link_to "Philosophie", philosophy_path, class: "sandspieltheraphie frankfurt andrea_niersbach dropdwon-item" %> <br>
+      <%= link_to "Angebot", offer_path, class: "sandspieltheraphie frankfurt andrea_niersbach dropdwon-item" %> <br>
+      <%= link_to "Über mich", about_path, class: "sandspieltheraphie frankfurt andrea_niersbach dropdwon-item"%> <br>
+      <%= link_to "Kontakt", contact_path, class: "sandspieltheraphie frankfurt andrea_niersbach dropdwon-item"%>
     </div>
   </div>
 </div>
