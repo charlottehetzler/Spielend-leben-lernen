@@ -43,6 +43,19 @@ g {
   fill: $light-green;
 }
 
+.contact-extra, .contact-link {
+  font-size: 16px;
+}
+.contact-extra {
+  margin-top: -10px;
+}
+
+a.contact-link {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+
 
 //Responsive
 
@@ -75,6 +88,9 @@ g {
     height: 350px;
     width: 100%;
   }
+  p.contact-extra, a.contact-link {
+  font-size: 14px !important;
+}
 }
 @media(max-width: 376px) {
   #map {
