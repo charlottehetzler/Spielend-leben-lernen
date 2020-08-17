@@ -37,6 +37,10 @@ yarn-debug.log*
 .env*
 cert.pem
 key.pem
+server.key
+spielend-leben-lernen_com.ca-bundle
+spielend-leben-lernen_com.crt
+server.crt
 
 # Ignore Mac and Linux file system files
 *.swp
